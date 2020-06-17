@@ -26,7 +26,7 @@ rundeckPlugin(NotificationPlugin){
                         ]
                 ]
         ])
-        process = [ 'bash', '-c', "curl -v -k -X POST -H \"Content-Type: application/json\" -d '${json_payload}' https://outlook.office.com/webhook/91744d32-9381-4748-bf35-4a3b3ba211a5@5a86b3fb-4213-49cd-b4d6-be91482ad3c0/IncomingWebhook/4bcf50721c1e423184279f44e29fbc24/4955d7e7-9d00-474a-b168-0c2e54f84f7e" ].execute().text
+        process = [ 'bash', '-c', "curl -v -k -X POST -H \"Content-Type: application/json\" -d '${json_payload}' https://outlook.office.com/webhook/91744d32-9381-4748-bf35-4a3b3ba211a5@5a86b3fb-4213-49cd-b4d6-be91482ad3c0/IncomingWebhook/f046c8918dd94fc6bd2eb7746db0a1bb/4955d7e7-9d00-474a-b168-0c2e54f84f7e" ].execute().text
 
         return true
     }
@@ -51,7 +51,7 @@ rundeckPlugin(NotificationPlugin){
                         ]
                 ]
         ])
-        process = [ 'bash', '-c', "curl -v -k -X POST -H \"Content-Type: application/json\" -d '${json_payload}' https://outlook.office.com/webhook/91744d32-9381-4748-bf35-4a3b3ba211a5@5a86b3fb-4213-49cd-b4d6-be91482ad3c0/IncomingWebhook/4bcf50721c1e423184279f44e29fbc24/4955d7e7-9d00-474a-b168-0c2e54f84f7e" ].execute().text
+        process = [ 'bash', '-c', "curl -v -k -X POST -H \"Content-Type: application/json\" -d '${json_payload}' https://outlook.office.com/webhook/91744d32-9381-4748-bf35-4a3b3ba211a5@5a86b3fb-4213-49cd-b4d6-be91482ad3c0/IncomingWebhook/f046c8918dd94fc6bd2eb7746db0a1bb/4955d7e7-9d00-474a-b168-0c2e54f84f7e" ].execute().text
 
         return true
     }
@@ -75,7 +75,7 @@ rundeckPlugin(NotificationPlugin){
                         ]
                 ]
         ])
-        process = [ 'bash', '-c', "curl -v -k -X POST -H \"Content-Type: application/json\" -d '${json_payload}' https://outlook.office.com/webhook/91744d32-9381-4748-bf35-4a3b3ba211a5@5a86b3fb-4213-49cd-b4d6-be91482ad3c0/IncomingWebhook/4bcf50721c1e423184279f44e29fbc24/4955d7e7-9d00-474a-b168-0c2e54f84f7e" ].execute().text
+        process = [ 'bash', '-c', "curl -v -k -X POST -H \"Content-Type: application/json\" -d '${json_payload}' https://outlook.office.com/webhook/91744d32-9381-4748-bf35-4a3b3ba211a5@5a86b3fb-4213-49cd-b4d6-be91482ad3c0/IncomingWebhook/f046c8918dd94fc6bd2eb7746db0a1bb/4955d7e7-9d00-474a-b168-0c2e54f84f7e" ].execute().text
 
         return true
     }
